@@ -1,0 +1,120 @@
+.main{
+    display: flex;
+    
+}
+
+.left{
+    position: relative;
+}
+
+.image{
+    height: 100vh;
+    width: 30vw;  
+}
+
+.image{
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top:100px;
+    width: 30vw;
+    display: flex;
+    background-color: rgb(26, 25, 25,0.5);
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.bg p{
+      margin-top: 110px;
+      font-size: 50px;  
+      font-family: Norsebold;
+}
+
+.bg .logo{
+width: 100px;
+height: 120px;
+margin-top: 60px;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width:70vw ;
+}
+
+.heading_text{
+    height: 40%;
+    background-color: #E5E7EB;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 20px;
+
+}
+
+.heading_text h3{
+  margin-left: 30px;
+}
+
+.text1{
+   margin-top: 140px;
+}
+
+.formbox h2{
+    margin-left: 30px;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.name{
+      display: flex;
+      gap: 50px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      font-family: "Tilt Neon", sans-serif;
+}
+
+.name input{
+    width: 250px;
+    height: 20px;
+}
+
+.name input:focus{
+    border: 3px solid blue;
+}
+
+
+.formbox{
+    height: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px 1px rgb(91,89,89,0.52);
+}
+
+.button button{
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    background-color:#596D48;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.para{
+    font-family: "Tilt Neon", sans-serif;
+    margin-left: 30px;
+}
+
+.para a{
+    text-decoration: none;
+    color: #465738;
+}
+.name .pswd input:invalid{
+   border: 2px solid rgb(221, 45, 45);
+}
+
+@font-face {
+    font-family: Norsebold;
+    src: url(./font/Norse-Bold.otf);
+  }
